@@ -16,6 +16,7 @@ A Discord server where you have permissions to create and manage webhooks.
 Two separate text channels in your Discord server: one for general raid notifications and one for the boss kill feed.
 
 🔧 Installation and Configuration
+
 Step 1: Install the Required Mod
 Download the Boss Notifier mod from the link above and install it according to its instructions (typically by extracting it into your user/mods/ directory).
 
@@ -29,8 +30,6 @@ In your Discord server, create a webhook for your raid notifications channel and
 Open the raid_dashboard.js file in a text editor (like Visual Studio Code or Notepad++).
 
 Find the lines that define the webhook URLs:
-
-JavaScript
 
 // Paste your Discord webhook URLs here
 const RAID_WEBHOOK_URL = 'YOUR_RAID_NOTIFICATION_WEBHOOK_URL_HERE';
