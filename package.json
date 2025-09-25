@@ -1,0 +1,11 @@
+{
+  "name": "discord-raid-notifier",
+  "version": "2.0.0",
+  "description": "Discord Raid Notifier for SPT/Fika Servers",
+  "main": "raid_notifier.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
+
